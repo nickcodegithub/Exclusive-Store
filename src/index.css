@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  button {
+    transition: 300ms all ease-in-out;
+  }
+  
+  .transiton-smooth {
+    transition: 300ms all ease-in-out;
+  }
+  
+  .bg-black-transparent-xl {
+    background-color: rgba(0, 0, 0, 0.27);
+  }
+  
+  .bg-black-transparent-md {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
