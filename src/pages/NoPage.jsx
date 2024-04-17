@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NoPage = () => {
   return (
     <motion.div
-      className="pt-32 flex h-[100vh] justify-center bg-gradient-to-br from-gray-950 via-violet-950 to-gray-950"
+      className="pt-32 flex h-[100vh] justify-center bg-gradient-to-b from-black via-blue-950 to-black"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1}}
       exit={{ opacity: 1 }}

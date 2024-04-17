@@ -3,7 +3,6 @@ import { useContext, useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { IoPersonSharp } from "react-icons/io5";
-import { FaSearch } from "react-icons/fa";
 import { cartItemContext } from "../context/Context";
 // import { MdOutlineDarkMode } from "react-icons/md";
 
@@ -21,8 +20,7 @@ const Layout = () => {
           <Link to="/"> <span className=" font-semibold">Exclusive</span> Store</Link>
         </li>
         <div className="flex items-center">
-          <div className="flex items-center">
-            <FaSearch className=" cursor-pointer" onClick="" />
+          <div className="flex items-center ">
             <input
               className=" border-2 p-5 pl-3 bg-transparent border-none outline-none w-96 h-10 rounded-md"
               type="search"
@@ -43,7 +41,7 @@ const Layout = () => {
               </Link>
             </li> */}
 
-            <li className="inline">
+            <li className="inline hover:text-orange-300 transiton-smooth">
               <Link
                 to="/Login"
                 className=" p-2 rounded-md flex items-center gap-2"
@@ -52,7 +50,7 @@ const Layout = () => {
               </Link>
             </li>
 
-            <li className="inline">
+            <li className="inline hover:text-orange-300 transiton-smooth">
               <Link
                 to="/Wishlist"
                 className="p-2 rounded-md flex items-center gap-2"
@@ -60,7 +58,7 @@ const Layout = () => {
                 <FaRegHeart className=" text-2xl" />
               </Link>
             </li>
-            <li className="inline">
+            <li className="inline hover:text-orange-300 transiton-smooth">
               <Link
                 to="/Cart"
                 className="p-2 rounded-md flex items-center gap-2"

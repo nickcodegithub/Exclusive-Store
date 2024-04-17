@@ -63,7 +63,7 @@ const CartProduct = () => {
               <span className="font-normal text-gray-500 line-through">
                 ₹{priceOriginal}
               </span>
-              <span className=" text-red-500 font-normal">{discount}% OFF</span>
+              <span className=" text-red-400 font-normal">{discount}% OFF</span>
             </div>
             <div className=" text-xs flex items-center mx-5 gap-1">
               <GiReturnArrow />
@@ -73,7 +73,7 @@ const CartProduct = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-end h-full ">
+        <div className="flex flex-col items-end">
           <RxCross2 className=" text-xl mb-[100%] hover:text-red-400 text-slate-500" />
           <div className="flex text-sm mt-[100%] font-bold items-center gap-2">
             <div>Total:</div>

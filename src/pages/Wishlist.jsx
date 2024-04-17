@@ -6,7 +6,7 @@ const Wishlist = () => {
   const items = 2;
   return (
     <motion.div
-      className="py-32 px-28 text-white flex bg-gradient-to-br from-gray-950 via-violet-950 to-gray-950 h-[100vh]"
+      className="py-32 px-28 text-white flex bg-gradient-to-b from-black via-blue-950 to-black h-[100vh]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1}}
       exit={{ opacity: 1 }}

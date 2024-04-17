@@ -8,7 +8,7 @@ const Cart = () => {
 
   return (
     <motion.div
-      className="px-28 bg-gradient-to-br from-gray-950 via-violet-950 to-gray-950 py-32"
+      className="px-28 bg-gradient-to-b from-black via-blue-950 to-black py-32"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1}}
       exit={{ opacity: 1 }}
@@ -26,7 +26,7 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className=" text-white bg-black-transparent-xl mr-28 p-10 fixed right-0 rounded-md w-[600px] text-center">
+        <div className=" text-white bg-black-transparent-xl mr-28 p-10 fixed right-0 rounded-md w-[600px] h-[75vh] text-center">
           <div className="">
             <h1 className=" font-light">
               You have total{" "}

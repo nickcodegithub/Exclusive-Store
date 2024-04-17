@@ -18,7 +18,7 @@ const Product = () => {
 
   return (
     <motion.div
-      className="pt-32 h-[100vh] items-center text-white p-16 flex gap-28 bg-gradient-to-br from-gray-950 via-violet-950 to-gray-950"
+      className="pt-32 h-[100vh] items-center text-white p-16 flex gap-28 bg-gradient-to-b from-black via-blue-950 to-black"
       initial={{ scale: 0.5 }}
       animate={{ scale: 1}}
       exit={{ opacity: 0 }}

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Signup = () => {
   return (
     <motion.div
-      className=" px-28 text-white flex justify-around h-[100vh] items-center bg-gradient-to-br from-gray-950 via-violet-950 to-gray-950"
+      className=" px-28 text-white flex justify-around h-[100vh] items-center bg-gradient-to-b from-black via-blue-950 to-black"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1}}
       exit={{ opacity: 1 }}
